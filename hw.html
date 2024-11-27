@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <h3>Javascript homework</h3>
+        <p id="ans"></p>
+        <script>
+            async function Div(x,y){
+                let Response = await x/y;
+                show(Response);
+            }
+
+            function show(abc){
+                document.getElementById("ans").innerHTML= abc;
+            }
+
+            Div(8,2);
+        </script>
+    </body>
+</html>
+
